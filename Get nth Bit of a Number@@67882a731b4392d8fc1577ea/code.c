@@ -4,7 +4,7 @@ int main()
 {
     int num,bit;
     scanf ("%d%d",&num,&bit);
-    int nb= 1<<(sizeof(int)*bit+1);
+    int nb= 1<<bit;
     if (num&nb)
     printf("1");
     else
