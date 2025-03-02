@@ -5,7 +5,7 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    int msb = 1<<(sizeof(int)*8);
+    int msb = 1<<(sizeof(int)*7);
     if (a&msb)
     printf("Set");
     else printf("Not Set");
