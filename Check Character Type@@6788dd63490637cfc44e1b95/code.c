@@ -3,7 +3,7 @@
 int main()
 {
     char c;
-    scanf("%c",c); 
+    scanf("%c",&c); 
     if(c>=0 && c<=9)
     printf("Digit");
     else if ((c>='a'&& c<='z')||(c<='Z'&&c>='A'))
