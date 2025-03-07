@@ -6,10 +6,10 @@ int main()
     scanf("%d",&N);
     for (N;N>0;N--)
     {
-        printf("*");
+        printf("\n");
         for (int j=1;j<N;j--)
         {
-            printf("\n");
+            printf("*");
         }
     }
     return 0;
