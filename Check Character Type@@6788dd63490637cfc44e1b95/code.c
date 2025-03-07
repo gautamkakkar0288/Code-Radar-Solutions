@@ -6,7 +6,7 @@ int main()
     scanf("%c",c); 
     if(c>=0 && c<=9)
     printf("Digit");
-    else if (((int)c>=65 && (int)c<=90) || ((int)c>=97 && (int)c<=122))
+    else if ((c>='a'&& c<='z')||(c<='Z'&&c>='A'))
     {
         if (c=='a'||c=='A'||c=='e'||c=='E'||c=='i'||c=='I'||c=='o'||c=='O'||c=='u'||c=='U')
         printf("Vowel");
