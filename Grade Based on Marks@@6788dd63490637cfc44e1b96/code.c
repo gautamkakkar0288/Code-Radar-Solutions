@@ -9,9 +9,9 @@ int main()
     else if(m<90 && m>=80)
     printf("B");
     else if(m<80 && m>=70)
-    printf("C")
+    printf("C");
     else if (m<70 && m>=60)
-    printf("D")
+    printf("D");
     else printf("F");
     return 0;
 }
