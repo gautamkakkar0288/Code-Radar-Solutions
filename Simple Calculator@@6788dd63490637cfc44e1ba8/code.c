@@ -7,9 +7,10 @@ int main()
     scanf("%d%d%c",&a,&b,&c);
     switch (c)
     {
-        case '+':
-        printf("%d",(a+b));
-        break;
+       case '+':
+            result = num1 + num2;
+            printf("%d\n", result);
+            break;
         case '-':
         result=a-b;
         printf("%d",result);
