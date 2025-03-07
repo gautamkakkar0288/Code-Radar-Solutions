@@ -8,7 +8,7 @@ int main()
     switch (c)
     {
        case '+':
-            result = num1 + num2;
+            result = a + b;
             printf("%d\n", result);
             break;
         case '-':
