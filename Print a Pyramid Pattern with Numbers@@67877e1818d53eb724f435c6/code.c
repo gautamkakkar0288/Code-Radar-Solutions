@@ -11,9 +11,9 @@ int main()
             printf(" ");
         }
 
-        for (int k=1;k<=i;k++)
+        for (int k=1;k<=i-1;k++)
         {
-            printf("%d",k);
+            printf("%d ",k);
         }
         printf("\n");
 
