@@ -6,6 +6,10 @@ int main()
     scanf("%d",&n);
     for (int i=1;i<=n;i++)
     {
+        for (int s=1;s<=2*n-1;s++)
+        {
+            printf(" ");
+        }
         for (int j=1;j<=i;j++)
         {
             printf("%d",j);
