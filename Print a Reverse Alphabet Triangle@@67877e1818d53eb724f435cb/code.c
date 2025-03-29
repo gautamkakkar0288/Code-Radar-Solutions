@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int n;
+    int c=65,n;
     scanf("%d",&n);
     for (int i=1;i<=n;i++)
     {
@@ -12,7 +12,7 @@ int main()
             c++;
 
         }
-        int c=65;
+        c=65;
         
         printf("\n");
     }
