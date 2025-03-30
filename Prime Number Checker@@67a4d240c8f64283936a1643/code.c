@@ -1,6 +1,6 @@
 // Your code here...
 int isPrime(int num)
-int c=0
+int c=0;
 {
     for(i=2;i<num;i++)
     {
