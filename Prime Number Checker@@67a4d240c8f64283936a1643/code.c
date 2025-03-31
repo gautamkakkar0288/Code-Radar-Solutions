@@ -1,17 +1,16 @@
-// Your code here...
-int isPrime(int num)
-int c=0;
+#include<stdio.h>
+int isPrime(int n)
 {
-    for(int i=2;i<num;i++)
+    if (n<=10)
     {
-        if(num%i==0)
-        {
-            c++;
-        }
-        if(c=0)
-        printf("1");
-        else
-        printf("0");
+        return 0;
     }
-
+    for (int i=2;i*i<=n;i++)
+    {
+        if (n%i==0)
+        {
+            return 0;
+        }
+    }
+    return 1;
 }
