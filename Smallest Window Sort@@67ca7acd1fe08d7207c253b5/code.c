@@ -27,10 +27,10 @@ int findUnsortedSubarray(int arr[],int n)
     {
         if (arr[i]<min)
         min=arr[i];
-        if(arr[i]>max=arr[i])
+        if(arr[i]>max)
         max=arr[i];
     }
-    while(start >0 && arr[start-1]>min)
+    while(start >0 && arr[start-1>min])
     start--;
     while(end<n-1 && arr[end+1<max])
     end++;
