@@ -22,7 +22,7 @@ int findUnsortedSubarray(int arr[],int n)
             break;
         }
     }
-    int min,max;
+    int min=INT_MAX,max=INT_MIN;
     for (int i=start;i<=end;i++)
     {
         if (arr[i]<min)
